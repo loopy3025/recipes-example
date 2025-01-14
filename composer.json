@@ -8,24 +8,14 @@
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
         "chat": "https://www.drupal.org/node/314178"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    ],
     "require": {
         "composer/installers": "^2.3",
+        "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
         "oomphinc/composer-installers-extender": "2.0.1"
     },
-    "conflict": {
-        "drupal/drupal": "*"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "config": {
         "allow-plugins": {
             "composer/installers": true,
@@ -34,10 +24,38 @@
             "drupal/core-project-message": true,
             "oomphinc/composer-installers-extender": true,
             "php-http/discovery": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "cweagans/composer-patches": true
         },
         "sort-packages": true
     },
+    "repositories": {
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "drupal8": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "0": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "installer-types": [
+        "drupal-recipe"
+    ],
+    "installer-paths": {
+        "docroot/recipes/contrib/{$name}": [
+            "type:drupal-recipe"
+        ]
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "drupal-scaffold": {
             "locations": {
@@ -81,6 +99,7 @@
                 "homepage",
                 "support"
             ]
-        }
+        },
+        "enable-patching": "true"
     }
 }
