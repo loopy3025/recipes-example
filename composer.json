@@ -14,18 +14,21 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
-        "oomphinc/composer-installers-extender": "2.0.1"
+        "drush/drush": "^13.3",
+        "oomphinc/composer-installers-extender": "2.0.1",
+        "wikimedia/composer-merge-plugin": "^2.1"
     },
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "oomphinc/composer-installers-extender": true,
             "php-http/discovery": true,
             "phpstan/extension-installer": true,
-            "cweagans/composer-patches": true
+            "wikimedia/composer-merge-plugin": true
         },
         "sort-packages": true
     },
@@ -61,6 +64,9 @@
             "locations": {
                 "web-root": "docroot/"
             }
+        },
+        "merge-plugin": { 
+            "include": [ "docroot/modules/contrib/*/composer.libraries.json" ] 
         },
         "installer-paths": {
             "docroot/core": [
