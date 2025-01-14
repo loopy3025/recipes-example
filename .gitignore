@@ -6,5 +6,10 @@ composer.lock
 docroot/core
 docroot/*/contrib
 
+# acquia/drupal-recommended-settings methodology
+docroot/sites/default/settings.php
+docroot/sites/default/settings/local.settings.php
+salt.txt
+
 # WebNY
 .docksal

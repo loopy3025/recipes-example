@@ -9,6 +9,7 @@
         "chat": "https://www.drupal.org/node/314178"
     },
     "require": {
+        "acquia/drupal-recommended-settings": "^1.1",
         "composer/installers": "^2.3",
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^11.1",
@@ -26,6 +27,7 @@
             "php": "8.3"
         },
         "allow-plugins": {
+            "acquia/drupal-recommended-settings": true,
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,

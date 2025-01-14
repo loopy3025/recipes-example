@@ -1,0 +1,12 @@
+options:
+  uri: "https://adam_test_recipes.docksal.yml"
+  root: "docroot"
+databases:
+  default:
+    default:
+      driver: mysql
+      database: default
+      username: user
+      password: user
+      host: db
+      port: 3306
