@@ -18,7 +18,13 @@
         "oomphinc/composer-installers-extender": "2.0.1",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
+    "require-dev": {
+        "webny/docksal": "^2.0"
+    },
     "config": {
+        "platform": {
+            "php": "8.3"
+        },
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
@@ -44,6 +50,10 @@
         "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "webny/docksal": {
+          "type": "git",
+          "url": "git@github.com:ny/docksal.git"
         }
     },
     "installer-types": [
@@ -107,5 +117,8 @@
             ]
         },
         "enable-patching": "true"
+    },
+    "scripts": {
+        "post-update-cmd": "rm -rf .docksal && cp -rf ./vendor/webny/docksal .docksal && rm -rf .docksal/.git"
     }
 }
