@@ -5,6 +5,8 @@ composer.lock
 # Drupal
 docroot/core
 docroot/*/contrib
+docroot/libraries
+recipes/contrib
 files-private
 docroot/sites/default/files
 

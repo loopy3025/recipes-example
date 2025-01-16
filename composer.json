@@ -12,10 +12,11 @@
         "acquia/drupal-recommended-settings": "^1.1",
         "composer/installers": "^2.3",
         "cweagans/composer-patches": "^1.7",
-        "drupal/core-composer-scaffold": "^11.1",
-        "drupal/core-project-message": "^11.1",
-        "drupal/core-recommended": "^11.1",
+        "drupal/core-composer-scaffold": "^10.3.10",
+        "drupal/core-project-message": "^10.3.10",
+        "drupal/core-recommended": "^10.3.10",
         "drush/drush": "^13.3",
+        "drupal/ez_decoupled": "^1.0.1",
         "oomphinc/composer-installers-extender": "2.0.1",
         "wikimedia/composer-merge-plugin": "^2.1"
     },
@@ -58,14 +59,6 @@
             "url": "git@github.com:ny/docksal.git"
         }
     },
-    "installer-types": [
-        "drupal-recipe"
-    ],
-    "installer-paths": {
-        "docroot/recipes/contrib/{$name}": [
-            "type:drupal-recipe"
-        ]
-    },
     "conflict": {
         "drupal/drupal": "*"
     },
@@ -80,6 +73,9 @@
         "merge-plugin": { 
             "include": [ "docroot/modules/contrib/*/composer.libraries.json" ] 
         },
+        "installer-types": [
+            "drupal-recipe"
+        ],
         "installer-paths": {
             "docroot/core": [
                 "type:drupal-core"
@@ -108,7 +104,7 @@
             "docroot/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ],
-            "recipes/{$name}": [
+            "recipes/contrib/{$name}": [
                 "type:drupal-recipe"
             ]
         },
