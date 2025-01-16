@@ -3,18 +3,46 @@ langcode: en
 status: true
 dependencies:
   config:
+    - block_content.type.alert_banner
+    - block_content.type.basic
+    - block_content.type.cards
+    - block_content.type.embed_block
+    - block_content.type.hero_media_block
+    - block_content.type.map_block
+    - block_content.type.media
+    - block_content.type.referenced_cards
+    - block_content.type.social_media
+    - block_content.type.text_block
+    - core.entity_view_display.node.landing_page.default
+    - entity_browser.browser.asset_browser
+    - entity_browser.browser.image_browser
+    - media.type.audio
+    - media.type.image
+    - media.type.instagram
+    - media.type.tweet
+    - media.type.video
     - node.type.article
+    - node.type.landing_page
     - node.type.page
     - taxonomy.vocabulary.tags
   module:
+    - block_content
     - comment
+    - content_lock
     - contextual
+    - dropzonejs
+    - entity_browser
     - file
+    - layout_builder
+    - media
     - node
+    - paragraphs_library
+    - paragraphs_previewer
     - path
     - system
     - taxonomy
     - toolbar
+    - yoast_seo
 _core:
   default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
 id: content_editor
@@ -23,25 +51,77 @@ weight: 2
 is_admin: false
 permissions:
   - 'access administration pages'
+  - 'access asset_browser entity browser pages'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access image_browser entity browser pages'
   - 'access toolbar'
   - 'administer url aliases'
+  - 'break content lock'
+  - 'configure all landing_page node layout overrides'
+  - 'create alert_banner block content'
   - 'create article content'
+  - 'create audio media'
+  - 'create basic block content'
+  - 'create cards block content'
+  - 'create embed_block block content'
+  - 'create hero_media_block block content'
+  - 'create image media'
+  - 'create instagram media'
+  - 'create landing_page content'
+  - 'create map_block block content'
+  - 'create media'
+  - 'create media block content'
   - 'create page content'
+  - 'create paragraph library item'
+  - 'create referenced_cards block content'
+  - 'create social_media block content'
   - 'create terms in tags'
+  - 'create text_block block content'
+  - 'create tweet media'
   - 'create url aliases'
+  - 'create video media'
+  - 'delete any article content'
   - 'delete article revisions'
   - 'delete own article content'
+  - 'delete own audio media'
   - 'delete own files'
+  - 'delete own image media'
+  - 'delete own instagram media'
+  - 'delete own landing_page content'
   - 'delete own page content'
+  - 'delete own tweet media'
+  - 'delete own video media'
   - 'delete page revisions'
+  - 'dropzone upload files'
+  - 'edit any alert_banner block content'
+  - 'edit any article content'
+  - 'edit any basic block content'
+  - 'edit any cards block content'
+  - 'edit any embed_block block content'
+  - 'edit any hero_media_block block content'
+  - 'edit any map_block block content'
+  - 'edit any media block content'
+  - 'edit any referenced_cards block content'
+  - 'edit any social_media block content'
+  - 'edit any text_block block content'
   - 'edit own article content'
+  - 'edit own audio media'
   - 'edit own comments'
+  - 'edit own image media'
+  - 'edit own instagram media'
+  - 'edit own landing_page content'
   - 'edit own page content'
+  - 'edit own tweet media'
+  - 'edit own video media'
+  - 'edit paragraph library item'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'revert article revisions'
+  - 'use yoast seo'
   - 'view all revisions'
+  - 'view any paragraphs previewer'
+  - 'view article revisions'
   - 'view own unpublished content'
   - 'view the administration theme'

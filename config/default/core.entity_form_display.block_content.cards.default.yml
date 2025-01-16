@@ -1,0 +1,64 @@
+uuid: 16bf480b-d85f-4af4-b2da-14725d8f7e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cards
+    - field.field.block_content.cards.field_card
+    - field.field.block_content.cards.field_link
+    - field.field.block_content.cards.field_title
+    - field.field.block_content.cards.view_mode_selection
+  module:
+    - fvm
+    - paragraphs_previewer
+_core:
+  default_config_hash: 5aq7qAT0oa9ktvWrTdGpWvhCUf1X1sGmEvMPMa0H_OA
+id: block_content.cards.default
+targetEntityType: block_content
+bundle: cards
+mode: default
+content:
+  field_card:
+    type: paragraphs_previewer
+    weight: 2
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: preview
+      autocollapse: none
+      closed_mode_threshold: '0'
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: card
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: 0
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  view_mode_selection:
+    type: fvm_options_select
+    region: content
+    weight: 26
+    settings:
+      default_option: 'Cards Grid (1xn)'
+    third_party_settings: {  }
+hidden:
+  field_link: true

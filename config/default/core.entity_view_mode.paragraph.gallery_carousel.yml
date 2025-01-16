@@ -1,0 +1,13 @@
+uuid: 0fc79872-263c-4526-b5f7-8966889d8acb
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: tOxp-TbsXPNvaeefrEHqX6-EgrISMrFpTCVBlvMU4nk
+id: paragraph.gallery_carousel
+label: 'Gallery Carousel'
+description: ''
+targetEntityType: paragraph
+cache: true

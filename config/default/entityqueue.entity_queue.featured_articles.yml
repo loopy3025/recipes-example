@@ -1,0 +1,27 @@
+uuid: 3d759b2a-49ce-4008-b534-e1bd6fd53bc3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: XNZAYA7M0x2s9biJMWQnR2VBJRclE3b2zX79JUiOhIk
+id: featured_articles
+label: 'Featured Articles'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

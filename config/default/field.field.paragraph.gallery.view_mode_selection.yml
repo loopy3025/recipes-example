@@ -1,0 +1,23 @@
+uuid: 295f4494-f6d7-4bc7-926d-37e0a5010eb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.view_mode_selection
+    - paragraphs.paragraphs_type.gallery
+_core:
+  default_config_hash: psMhlpHbmm0fHaVjsZ2u8v0bMA7jTEYg5o_JcrPS2XA
+id: paragraph.gallery.view_mode_selection
+field_name: view_mode_selection
+entity_type: paragraph
+bundle: gallery
+label: 'View Mode'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: field_view_mode
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,24 @@
+uuid: 0395b17f-afae-4df0-a160-c9a768352aff
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.media
+    - field.field.block_content.media.field_media
+_core:
+  default_config_hash: ffOjDnpCq0Vc1PquidjAsjpvWEimHckfV-DyNN7HARM
+id: block_content.media.default
+targetEntityType: block_content
+bundle: media
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,26 @@
+uuid: bcb40adb-c5b3-4f2f-afff-136380cf5a6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.map_block
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: AmsVLYDVTUm559OxKkZLAbD4yNL7QguncfWPNgZ_UHU
+id: block_content.map_block.body
+field_name: body
+entity_type: block_content
+bundle: map_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

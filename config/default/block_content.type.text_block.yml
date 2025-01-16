@@ -1,0 +1,10 @@
+uuid: e19f1d00-a7e9-4432-9249-7e453c9be064
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-72wGQKlmNYaroXzCx4kWlBPruC3Ka0WwVc5XSSDe_M'
+id: text_block
+label: 'Text Block'
+revision: 1
+description: 'A Basic Text component, that can be used to add any content.'

@@ -1,0 +1,21 @@
+uuid: b00c6c2d-7b70-454d-9406-9d4a32fdea7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_map
+    - paragraphs.paragraphs_type.map
+_core:
+  default_config_hash: VMsIctKO17O1bzQD-yebFUG6mMoAPLg9GcpUS0uIZzE
+id: paragraph.map.field_map
+field_name: field_map
+entity_type: paragraph
+bundle: map
+label: 'Google Map'
+description: 'Enter a location that can be recognised by Google Maps, e.g. "Taj Mahal, Agra, India".'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

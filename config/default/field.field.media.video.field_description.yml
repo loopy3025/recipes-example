@@ -1,0 +1,24 @@
+uuid: 3262e7c8-2e36-4ed0-81c4-42d8776eb94f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_description
+    - media.type.video
+  module:
+    - text
+_core:
+  default_config_hash: 49r8Tw-qEfldcqEkPlXpEoXwqy1NEX1py7xVoBqctzc
+id: media.video.field_description
+field_name: field_description
+entity_type: media
+bundle: video
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

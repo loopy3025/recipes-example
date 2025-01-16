@@ -1,0 +1,45 @@
+uuid: 730edf23-7bab-457a-8361-9e13aafde9bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.instagram.field_media_oembed_instagram
+    - media.type.instagram
+  module:
+    - media
+_core:
+  default_config_hash: ku7QQYiZeXRuNxmvFWm1sIT60XlaHvUOc5GU-OkU-Fs
+id: media.instagram.default
+targetEntityType: media
+bundle: instagram
+mode: default
+content:
+  field_media_oembed_instagram:
+    type: oembed_textfield
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  publish_on: true
+  uid: true
+  unpublish_on: true

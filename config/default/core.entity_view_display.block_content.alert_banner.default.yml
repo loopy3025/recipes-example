@@ -1,0 +1,26 @@
+uuid: 8c4db827-9c46-4d08-97d1-b77aa5a444c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.alert_banner
+    - field.field.block_content.alert_banner.body
+    - field.field.block_content.alert_banner.field_background_color
+  module:
+    - ezcontent_block
+_core:
+  default_config_hash: NHJpPvyllRK8SYPuwNBDmVXsdcj9aE4hwk0VcX4_FE8
+id: block_content.alert_banner.default
+targetEntityType: block_content
+bundle: alert_banner
+mode: default
+content:
+  body:
+    label: hidden
+    type: alert_banner_text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_background_color: true

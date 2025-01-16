@@ -1,0 +1,24 @@
+uuid: cb024dbc-d0be-4541-9ffc-83a4a6ac9955
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.referenced_card.field_article
+    - paragraphs.paragraphs_type.referenced_card
+_core:
+  default_config_hash: 6kY60g3xl5GSdyzEPvppV9q2xO8bT6OxCsic4UxQlMQ
+id: paragraph.referenced_card.default
+targetEntityType: paragraph
+bundle: referenced_card
+mode: default
+content:
+  field_article:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: card
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

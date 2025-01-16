@@ -1,0 +1,13 @@
+uuid: afcb128d-3825-4044-8ff2-3652b9a9028b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: cu6xpF0Im3IdCXYcBh4uNBAmtFf3O1-c5soc0G3V4pI
+id: block_content.preview
+label: Preview
+description: ''
+targetEntityType: block_content
+cache: true

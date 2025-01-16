@@ -1,0 +1,67 @@
+uuid: d3c8cae1-a8ff-4a3a-ad47-24eef1d9372c
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.image
+    - views.view.asset_browser
+  module:
+    - dropzonejs_eb_widget
+    - entity_browser_entity_form
+    - media
+    - views
+_core:
+  default_config_hash: mqW4t-4nVRLz9FmHdvNGhqB7GIJNCRDJNe1aWOxGda0
+name: asset_browser
+label: 'Asset Browser'
+display: modal
+display_configuration:
+  width: ''
+  height: ''
+  link_text: 'Select asset(s)'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  4bf96788-ebf4-4e61-8833-5ac33ebb6c57:
+    settings:
+      submit_text: 'Select asset(s)'
+      auto_select: false
+      view: asset_browser
+      view_display: media_browser_all
+    uuid: 4bf96788-ebf4-4e61-8833-5ac33ebb6c57
+    weight: 1
+    label: Library
+    id: view
+  1bbd86bd-3905-4af5-84d4-db9dbd45dc95:
+    settings:
+      submit_text: 'Select image(s)'
+      auto_select: false
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop files here to upload them'
+      max_filesize: 32M
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: null
+      resize_height: null
+      resize_quality: 1.0
+      resize_method: contain
+      thumbnail_method: contain
+      media_type: image
+      inherit_settings: true
+    uuid: 1bbd86bd-3905-4af5-84d4-db9dbd45dc95
+    weight: 2
+    label: 'Upload Image'
+    id: dropzonejs_media_entity
+  323e9c30-d1d2-47c1-be4d-90763424f3f8:
+    settings:
+      submit_text: 'Embed Video'
+      entity_type: media
+      bundle: video
+      form_mode: inline
+    uuid: 323e9c30-d1d2-47c1-be4d-90763424f3f8
+    weight: 3
+    label: 'Embed Video'
+    id: entity_form

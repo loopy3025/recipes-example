@@ -1,0 +1,31 @@
+uuid: 4e12af71-7a8a-45dc-bc74-434e8ff8a5f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.inline
+    - field.field.media.tweet.embed_code
+    - media.type.tweet
+_core:
+  default_config_hash: CE3j0BIwElfYvmRYHXDFgdlvppi1487nDzgvXzX1wqg
+id: media.tweet.inline
+targetEntityType: media
+bundle: tweet
+mode: inline
+content:
+  embed_code:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 1
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  name: true
+  path: true
+  publish_on: true
+  status: true
+  uid: true
+  unpublish_on: true

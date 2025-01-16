@@ -1,0 +1,13 @@
+uuid: 88b6efc9-e2eb-400f-8d14-faa5bd0e6c5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: r8p_P11FaTKHfKWDaGVsFgWWMMJJvCpFdX5wytJby3g
+id: paragraph.gallery
+label: Gallery
+description: ''
+targetEntityType: paragraph
+cache: true

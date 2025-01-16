@@ -1,0 +1,25 @@
+uuid: e2c61b86-0569-4075-9155-f3830343fd3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_position
+    - paragraphs.paragraphs_type.card
+  module:
+    - options
+_core:
+  default_config_hash: Lkxtb2DacxGtBuLfnYa88Z0V6DX2OwJSmY9rLXw5FRk
+id: paragraph.card.field_text_position
+field_name: field_text_position
+entity_type: paragraph
+bundle: card
+label: 'Text Position'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,22 @@
+uuid: f29bbfe1-e632-4aea-9348-a99086195318
+langcode: en
+status: false
+dependencies:
+  theme:
+    - ezcontent_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: ezcontent_theme_secondary_local_tasks
+theme: ezcontent_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

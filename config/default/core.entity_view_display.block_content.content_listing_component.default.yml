@@ -1,0 +1,18 @@
+uuid: 5082df99-350c-4464-94c4-420446b8e8f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_listing_component
+    - field.field.block_content.content_listing_component.field_author
+    - field.field.block_content.content_listing_component.field_tags
+_core:
+  default_config_hash: 2qQdN4HBeXt6-eFZd66ai_pbuh5QpJ_z0gQJ7H2M2Pk
+id: block_content.content_listing_component.default
+targetEntityType: block_content
+bundle: content_listing_component
+mode: default
+content: {  }
+hidden:
+  field_author: true
+  field_tags: true

@@ -1,0 +1,13 @@
+uuid: 5eaa1fbd-d6ed-4b47-a579-7a9be73b2c3b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: Y99kjGYSVs3MEkD97x09eSC7GlwovobMtCky2EgncCs
+id: paragraph.hero_media
+label: 'Hero Media'
+description: ''
+targetEntityType: paragraph
+cache: true

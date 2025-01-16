@@ -1,0 +1,42 @@
+uuid: 042736a9-006f-41a0-a581-dc22e206e908
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content_listing_component
+    - field.field.block_content.content_listing_component.field_author
+    - field.field.block_content.content_listing_component.field_tags
+_core:
+  default_config_hash: ESebATIX2uIs4G52YGV1mOnV6W_t-q4camuPgxRL3OQ
+id: block_content.content_listing_component.default
+targetEntityType: block_content
+bundle: content_listing_component
+mode: default
+content:
+  field_author:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+    region: content
+  field_tags:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

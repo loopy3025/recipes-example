@@ -1,0 +1,21 @@
+uuid: f4efe627-6126-4ab9-b2f7-e59a0d939fc1
+langcode: und
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_oembed_instagram
+    - media.type.instagram
+_core:
+  default_config_hash: tng6Hz7VRRnq7PaKWVrgIQ4X7ZTq_cD_TKp5yMLmM_s
+id: media.instagram.field_media_oembed_instagram
+field_name: field_media_oembed_instagram
+entity_type: media
+bundle: instagram
+label: 'Instagram URL'
+description: 'Paste Instagram post URL.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 7608f417-ce68-4a4c-973a-22c6a1b8e95a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.cards_gallery
+_core:
+  default_config_hash: l02JKbLrekC0sGra5zObcKB1_VTtt_iSqc_MaBRbHyQ
+id: paragraph.cards_gallery.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: cards_gallery
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

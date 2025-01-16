@@ -1,0 +1,29 @@
+uuid: f1b35f13-2501-4b73-beb4-1232ba0f9442
+langcode: en
+status: true
+dependencies:
+  module:
+    - slick
+_core:
+  default_config_hash: GMejsLYxR3kFWpQ1ZdmvkMAPhO-I7MJyroDQH8llr54
+name: Scripts
+format: scripts
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<script><iframe>'
+      filter_html_help: true
+      filter_html_nofollow: false
+  slick_filter:
+    id: slick_filter
+    provider: slick
+    status: false
+    weight: 4
+    settings:
+      optionset: default
+      media_switch: ''

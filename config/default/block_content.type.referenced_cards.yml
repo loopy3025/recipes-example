@@ -1,0 +1,10 @@
+uuid: 42913d34-d19b-4c17-96d3-a83768a6f283
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NEs-xnf5-V5IhUpMZU154ac285jRBGFXrOkEuvhbsPU
+id: referenced_cards
+label: 'Referenced Cards'
+revision: 1
+description: 'Add article nodes via a reference field.'

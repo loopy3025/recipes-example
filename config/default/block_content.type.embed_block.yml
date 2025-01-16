@@ -1,0 +1,10 @@
+uuid: 7798081f-3641-4ec0-996d-4bd04c69814d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: N24oRfnZMcU5KMI-_-H-8WfrrXRrtUZ7Szf1e97mcMc
+id: embed_block
+label: 'Embed Block'
+revision: 1
+description: 'Embed any 3rd party code into the site.'

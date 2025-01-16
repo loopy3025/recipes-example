@@ -1,0 +1,21 @@
+uuid: 05194648-b31c-4b15-86aa-e3bf28c6d37c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.map_block
+    - field.storage.block_content.field_short_title
+_core:
+  default_config_hash: Dn0WW4QPXIRdR-4BdL8ZnptwPekALmwMY0nxLOcqyv4
+id: block_content.map_block.field_short_title
+field_name: field_short_title
+entity_type: block_content
+bundle: map_block
+label: 'Short title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

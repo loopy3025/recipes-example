@@ -1,0 +1,27 @@
+uuid: 82b2697b-2218-4c58-92e3-8606199306ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_background_color
+    - paragraphs.paragraphs_type.card
+  module:
+    - color_field
+_core:
+  default_config_hash: 5R-km8y1pQdYIf-zN_6Tbxd1MVFdNijQh7uXfBlflpo
+id: paragraph.card.field_text_background_color
+field_name: field_text_background_color
+entity_type: paragraph
+bundle: card
+label: 'Text Background Color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#000000'
+    opacity: 0.37
+default_value_callback: ''
+settings:
+  opacity: 0.37
+field_type: color_field_type

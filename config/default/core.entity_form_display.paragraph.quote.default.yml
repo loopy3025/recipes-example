@@ -1,0 +1,35 @@
+uuid: 1c53c33b-c5bf-4438-b522-f4765696b6eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quote.field_quote
+    - field.field.paragraph.quote.field_source
+    - paragraphs.paragraphs_type.quote
+_core:
+  default_config_hash: L_kVOBjj3ARUKaXaWWagzNeH62eerTJayJSvz5SIr-I
+id: paragraph.quote.default
+targetEntityType: paragraph
+bundle: quote
+mode: default
+content:
+  field_quote:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_source:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,22 @@
+uuid: 25b62e89-473a-4bb3-ba73-49cf2b89f9d5
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ezcontent_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: ezcontent_theme_powered
+theme: ezcontent_theme
+region: top_header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,17 @@
+uuid: fbc750fd-8eea-4d6a-b640-675200fb07c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: NUfzcP63wdKEr4bsevZBsh12triFyprIjfCvRvbdKzY
+id: cards_gallery
+label: 'Cards Gallery'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

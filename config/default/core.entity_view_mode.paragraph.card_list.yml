@@ -1,0 +1,13 @@
+uuid: b135b180-2fa5-4bfc-b49e-dc03a5e5375e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: vTmKJhIWGJgDcFysczyAbpP9H-OpHNkP6lQbFFv1dAU
+id: paragraph.card_list
+label: 'Card List'
+description: ''
+targetEntityType: paragraph
+cache: true

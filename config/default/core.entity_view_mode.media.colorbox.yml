@@ -1,0 +1,13 @@
+uuid: fab41714-f21b-4cc0-b0c2-de62bdc7c50e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: yWP-vAVzIvXY90fJBJtAxjTcWejVJM1t4Yb8h7YMnMM
+id: media.colorbox
+label: Colorbox
+description: ''
+targetEntityType: media
+cache: true

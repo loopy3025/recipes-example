@@ -1,0 +1,13 @@
+uuid: 8b91fbb4-7ad3-4def-b83f-0ec35d88701f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 93AtzZ4kAdKWcuJ3K0WxTOx9KTTU9jp2YrXFY_6tioc
+id: paragraph.cards_grid
+label: 'Cards Grid (3xn)'
+description: ''
+targetEntityType: paragraph
+cache: true

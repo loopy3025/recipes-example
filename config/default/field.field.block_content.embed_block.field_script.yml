@@ -1,0 +1,32 @@
+uuid: e5342e4f-a90c-49f7-91a3-46ee6b54a4ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.embed_block
+    - field.storage.block_content.field_script
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    scripts: scripts
+    basic_html: '0'
+    restricted_html: '0'
+    full_html: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: OS96O_KVA0rpCzmCbl5Uc3BZy_EOMTZqiDnMDqAZhS4
+id: block_content.embed_block.field_script
+field_name: field_script
+entity_type: block_content
+bundle: embed_block
+label: Script
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

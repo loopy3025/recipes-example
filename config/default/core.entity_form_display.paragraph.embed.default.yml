@@ -1,0 +1,31 @@
+uuid: 10b437e6-9a94-48ec-b8fd-23f3096735dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed.field_script
+    - paragraphs.paragraphs_type.embed
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: XlRuy80tu2pB_4mBBLplhaOfwQsbCQr2KaIOoifVbe0
+id: paragraph.embed.default
+targetEntityType: paragraph
+bundle: embed
+mode: default
+content:
+  field_script:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      allowed_formats:
+        hide_guidelines: '1'
+        hide_help: '0'
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

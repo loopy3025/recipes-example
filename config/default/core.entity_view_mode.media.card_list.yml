@@ -1,0 +1,13 @@
+uuid: a011d056-e959-492f-9491-eb4b86b98b1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: swJB5blPwY1S4nG_tICXARwo_nOwlVQwu8d8_H15suc
+id: media.card_list
+label: 'Card List'
+description: ''
+targetEntityType: media
+cache: true

@@ -1,0 +1,21 @@
+uuid: f360bc9b-74aa-40aa-a6f1-f5497f05daa0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - social_media
+_core:
+  default_config_hash: 7DeD3ytKFY2AYVdvQcxYRMn6uWlJx2VzU2f6ppgXEe4
+id: node.field_social_sharing
+field_name: field_social_sharing
+entity_type: node
+type: social_media
+settings: {  }
+module: social_media
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

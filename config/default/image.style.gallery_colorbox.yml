@@ -1,0 +1,20 @@
+uuid: 7a691996-fdb3-4c62-89cd-8cfb12152707
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.crop_16_9
+  module:
+    - crop
+_core:
+  default_config_hash: dIWmYtNbu8Sr0z_wyGAofMSUw2jseIqf0ZNUWX9T7hk
+name: gallery_colorbox
+label: 'Gallery Colorbox'
+effects:
+  f06a8fc4-f5d3-457d-b9b8-82637ba0dc65:
+    uuid: f06a8fc4-f5d3-457d-b9b8-82637ba0dc65
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: crop_16_9
+      automatic_crop_provider: null

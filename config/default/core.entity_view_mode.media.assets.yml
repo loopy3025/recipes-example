@@ -1,0 +1,13 @@
+uuid: 308cc11f-d8b0-4b00-9f2e-cb2958431c08
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: lSS33jfjiBSjh0qxtcEahBtouQdendPI18XzOt5eNoY
+id: media.assets
+label: Assets
+description: ''
+targetEntityType: media
+cache: true

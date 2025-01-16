@@ -1,0 +1,28 @@
+uuid: 1c252119-36af-4360-998e-01cf98729e7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.crop_16_9
+  module:
+    - crop
+_core:
+  default_config_hash: GnL6eq9dqEw_59U6OXygcnS8jnmhdj0yxiud6NZPM7o
+name: gallery
+label: Gallery
+effects:
+  ce5c5524-ee16-4dc2-9142-028b83099dc5:
+    uuid: ce5c5524-ee16-4dc2-9142-028b83099dc5
+    id: image_scale_and_crop
+    weight: -9
+    data:
+      width: 300
+      height: 250
+      anchor: center-top
+  4e216d71-a98e-4f05-b911-872dafedbed2:
+    uuid: 4e216d71-a98e-4f05-b911-872dafedbed2
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: crop_16_9
+      automatic_crop_provider: null

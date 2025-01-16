@@ -1,0 +1,10 @@
+uuid: f29eb23d-6314-4a52-9455-23c25b18a0c2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pNb4JXN0KSk5YEcbDoOcqfXqoUHXGdFfsdfJ7TniLGo
+id: social_media
+label: 'Social Media'
+revision: 1
+description: 'Add Twitter and Instagram posts, directly via link, eliminating the need to find the Embed code.'

@@ -1,0 +1,13 @@
+uuid: 23604939-da0b-469f-9ad6-c6ef3ae8f3fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: '-MmSu7gHyKhee35_OrS19MlbTx5ZAHQErxdLzlT0SIA'
+id: block_content.cards_grid_3xn
+label: 'Cards Grid (3xn)'
+description: ''
+targetEntityType: block_content
+cache: true

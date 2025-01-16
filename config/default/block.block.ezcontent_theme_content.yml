@@ -1,0 +1,22 @@
+uuid: b4106179-a3ee-44df-9092-85adcb97d66a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - ezcontent_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: ezcontent_theme_content
+theme: ezcontent_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

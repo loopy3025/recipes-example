@@ -1,0 +1,10 @@
+uuid: 749d2a3a-b893-469a-a455-f663415e0718
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DZw46QGlBdAcTLg65WAAeICqB3POwq7-Mye2EBhiDXY
+id: media
+label: Media
+revision: 0
+description: 'Allow you to add media.'

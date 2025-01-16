@@ -1,0 +1,10 @@
+uuid: eab77272-a776-4033-a0d7-0b1ea6d74e40
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _Up09-L1zR3kIbX40aIf6WLDKTa1yVlJKrqoGPYeq-E
+id: cards
+label: Cards
+revision: 1
+description: 'Display Media and text with a configurable layout.'

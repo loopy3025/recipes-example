@@ -1,0 +1,10 @@
+uuid: 5fb9701c-7be3-4d71-8fff-caacf73e93c8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tfsX9zl5NOhMshuyNHpREIx9bO4HUAyogzqCROoDL4c
+id: hero_media_block
+label: 'Hero Media Block'
+revision: 1
+description: 'A simple hero slider with text, which can be used as a banner as well.'

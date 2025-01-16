@@ -1,0 +1,26 @@
+uuid: 38bee874-4e6a-46fc-b03a-499d6c4d5dee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.referenced_card.field_article
+    - paragraphs.paragraphs_type.referenced_card
+_core:
+  default_config_hash: Wjc0Vkg2D7aCMo3sMx17WR3s8HbDop2PmJ4hXY64gqc
+id: paragraph.referenced_card.default
+targetEntityType: paragraph
+bundle: referenced_card
+mode: default
+content:
+  field_article:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  created: true
+  status: true

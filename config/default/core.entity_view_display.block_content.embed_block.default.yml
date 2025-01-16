@@ -1,0 +1,24 @@
+uuid: d930b994-7239-4820-a57e-d3575e36d237
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.embed_block
+    - field.field.block_content.embed_block.field_script
+  module:
+    - ezcontent_paragraphs
+_core:
+  default_config_hash: diE8TVjLbIsmHC1D_MzOORxYLNrIlSw5Q5ND8X3j-d4
+id: block_content.embed_block.default
+targetEntityType: block_content
+bundle: embed_block
+mode: default
+content:
+  field_script:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: ezcontent_embed
+    region: content
+hidden: {  }

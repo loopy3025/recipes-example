@@ -1,0 +1,23 @@
+uuid: 07c1e76d-9b0d-4cc1-a762-d8b6a1e8f84a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.layout_selection
+    - paragraphs.paragraphs_type.card_list
+_core:
+  default_config_hash: dm1eTisMAG0rySG3ZNUkjjmbtSPekb1nDQQ_oy0MzJg
+id: paragraph.card_list.layout_selection
+field_name: layout_selection
+entity_type: paragraph
+bundle: card_list
+label: Layout
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: layout_library
+  handler_settings: {  }
+field_type: entity_reference

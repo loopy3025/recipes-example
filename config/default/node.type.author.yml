@@ -1,0 +1,28 @@
+uuid: f264a58f-aeeb-48e0-95b1-3138fdadd23a
+langcode: en
+status: true
+dependencies:
+  module:
+    - scheduler
+third_party_settings:
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_past_date_created: false
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+_core:
+  default_config_hash: '-FrHa-Cr0lI2yk-zb8IzBo3ds0lTxSE3IlL601abfl0'
+name: Author
+type: author
+description: 'Create authors and their Bio using this content type.'
+help: null
+new_revision: true
+preview_mode: 0
+display_submitted: false

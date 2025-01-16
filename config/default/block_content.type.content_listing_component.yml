@@ -1,0 +1,10 @@
+uuid: a94ae771-8233-4af0-852c-c40d5e2d16e3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FUO92wB1ypHWoGWaS4Rqgha_awxCLHDUtbIiVyIpP-U
+id: content_listing_component
+label: 'Content Listing Component'
+revision: 1
+description: 'A list of all articles filterable by Tags and Authors.'

@@ -1,0 +1,10 @@
+uuid: 3bdab81a-e48b-42cf-bd94-aa52cb1d351d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NKjbvIA-527PyKHDjqv7x1c74fZ22TicGJzH1NUfnr0
+id: alert_banner
+label: 'Alert Banner'
+revision: 1
+description: 'Create alert banner with configurable background color and WYSIWYG editor.'

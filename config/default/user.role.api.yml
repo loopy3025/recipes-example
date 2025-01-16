@@ -1,0 +1,48 @@
+uuid: 0e8d9e73-f76b-48f8-a2f1-b0e1160399df
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - access_unpublished
+    - content_moderation
+    - field_ui
+    - file
+    - filter
+    - layout_builder
+    - media
+    - node
+    - system
+_core:
+  default_config_hash: WDc4OSE3fLt2Bgxg35jBaGtgEuG9Eq807-2anG00UiE
+id: api
+label: 'Api user'
+weight: -5
+is_admin: null
+permissions:
+  - 'access_unpublished block_content cards'
+  - 'access_unpublished block_content content_listing_component'
+  - 'access_unpublished block_content embed_block'
+  - 'access_unpublished block_content hero_media_block'
+  - 'access_unpublished block_content map_block'
+  - 'access_unpublished block_content referenced_cards'
+  - 'access_unpublished block_content social_media'
+  - 'access_unpublished block_content text_block'
+  - 'access_unpublished media image'
+  - 'access_unpublished media instagram'
+  - 'access_unpublished media tweet'
+  - 'access_unpublished media video'
+  - 'access_unpublished menu_link_content'
+  - 'access_unpublished node article'
+  - 'access_unpublished node landing_page'
+  - 'access_unpublished paragraphs_library_item'
+  - 'access_unpublished taxonomy_term tags'
+  - 'administer display modes'
+  - 'administer menu'
+  - 'configure any layout'
+  - 'delete own files'
+  - 'use text format restricted_html'
+  - 'view all revisions'
+  - 'view latest version'
+  - 'view media'

@@ -1,0 +1,23 @@
+uuid: 7cb88521-7c73-4f0b-bbc4-c318f087564d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cards
+    - field.storage.block_content.view_mode_selection
+_core:
+  default_config_hash: R3h18GxQlygU_hE4iVJqT31u-A2aAGBrzeG5DSe63SU
+id: block_content.cards.view_mode_selection
+field_name: view_mode_selection
+entity_type: block_content
+bundle: cards
+label: 'View Mode'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: field_view_mode
+  handler_settings: {  }
+field_type: entity_reference

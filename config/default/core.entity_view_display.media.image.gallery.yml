@@ -1,0 +1,32 @@
+uuid: 77319c40-8fc6-4380-a02a-34047791c386
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.gallery
+    - field.field.media.image.field_media_image
+    - image.style.gallery
+    - media.type.image
+  module:
+    - image
+_core:
+  default_config_hash: 6hVTN-xyagTxVl5Kn4jF795E3n2H5F5xeIGUeXDLjfY
+id: media.image.gallery
+targetEntityType: media
+bundle: image
+mode: gallery
+content:
+  field_media_image:
+    weight: 0
+    label: hidden
+    third_party_settings: {  }
+    region: content
+    type: image
+    settings:
+      image_style: gallery
+      image_link: ''
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

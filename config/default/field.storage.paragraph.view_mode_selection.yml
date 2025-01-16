@@ -1,0 +1,21 @@
+uuid: 6345ff96-1fa9-4ffb-afa0-77c3deaef60a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: X5KnsdDhEX7yKdT2h4nTeTzMeP-Lisij0q0ejnJ_ffI
+id: paragraph.view_mode_selection
+field_name: view_mode_selection
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: entity_view_mode
+module: core
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
