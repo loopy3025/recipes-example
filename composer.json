@@ -118,5 +118,10 @@
     },
     "scripts": {
         "post-update-cmd": "rm -rf .docksal && cp -rf ./vendor/webny/docksal .docksal && rm -rf .docksal/.git"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drush\\Commands\\": "drush/Commands"
+        }
     }
 }
