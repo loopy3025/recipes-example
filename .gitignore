@@ -5,6 +5,8 @@ composer.lock
 # Drupal
 docroot/core
 docroot/*/contrib
+files-private
+docroot/sites/default/files
 
 # acquia/drupal-recommended-settings methodology
 docroot/sites/default/settings.php
