@@ -54,8 +54,8 @@
             "url": "https://packages.drupal.org/8"
         },
         "webny/docksal": {
-          "type": "git",
-          "url": "git@github.com:ny/docksal.git"
+            "type": "git",
+            "url": "git@github.com:ny/docksal.git"
         }
     },
     "installer-types": [
